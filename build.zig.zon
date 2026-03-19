@@ -1,0 +1,23 @@
+.{
+    .name = .yaml_cpp,
+    .version = "0.9.0",
+    .minimum_zig_version = "0.15.2",
+    .fingerprint = 0xb591f60c4ed6310c,
+
+    .dependencies = .{
+        .googletest = .{
+            .url = "https://github.com/allyourcodebase/googletest/archive/refs/heads/main.zip",
+            .hash = "googletest-1.15.2-vLU55gAVAAC86GD--lNpG3oVHLsJhdB0lFCOCsBEbiAE",
+            .lazy = true,
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "include",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}

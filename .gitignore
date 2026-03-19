@@ -1,3 +1,5 @@
 build/
 /tags
 /bazel-*
+.zig-cache
+zig-out
